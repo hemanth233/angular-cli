@@ -1,0 +1,26 @@
+{
+  "name": "hotel_mng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postman.js",
+  "scripts": {
+    "start": "node postman.js",
+    "test": "mocha --recursive"
+  },
+  "author": "Y-shu",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "log4js": "^3.0.6",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.3.2",
+    "node-gyp": "^3.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0"
+  }
+}
